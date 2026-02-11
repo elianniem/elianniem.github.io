@@ -56,11 +56,9 @@ html, body{
   overflow: auto;
 }
 
-/* hide old sidebar title + old article links */
 #jumpMenu h2{ display: none; }
 #jumpMenu a{ display: none; }
 
-/* Sidebar rectangular buttons */
 #jumpMenu .sideBtn{
   display: block;
   width: 100%;
@@ -74,23 +72,19 @@ html, body{
   text-align: center;
 }
 
-/* ===== NEW: Recent Articles hover dropdown ===== */
 #jumpMenu .recentWrap{
   position: relative;
 }
 
-/* container for Article 1-10 links */
 #jumpMenu .articleList{
   display: none;
   margin-top: 10px;
 }
 
-/* Show list when hovering the wrapper (keeps list open while hovering list) */
 #jumpMenu .recentWrap:hover .articleList{
   display: block;
 }
 
-/* Article buttons (shown on hover) */
 #jumpMenu .articleBtn{
   display: block;
   width: 100%;
@@ -104,7 +98,6 @@ html, body{
   text-align: center;
 }
 
-/* Hover over each article button */
 #jumpMenu .articleBtn:hover{
   background: #D6A0FD;
 }
@@ -181,10 +174,6 @@ h1{
   font-size: 13px;
   color: var(--muted);
 }
-
-/* =========================================================
-   Article interactivity (unchanged)
-   ========================================================= */
 
 #container article h2,
 #container article p,
